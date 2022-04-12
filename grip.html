@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sparks Bank</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body {
+                background-image: url("bank-img.jpg"); /*You will specify your image path here.*/
+
+                -moz-background-size: cover;
+                -webkit-background-size: cover;
+                background-size: cover;
+                background-position: top center !important;
+                background-repeat: no-repeat !important;
+                background-attachment: fixed;
+        }
+        .navbar
+        {
+            background-color: rgb(0, 11, 12);
+            margin-top: 0;
+            padding-bottom: 30px;
+            padding-top: 20px;
+        }
+        .welcome{
+            padding-left: 20px;
+            display: inline;
+            color: red;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        .view{
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            color: red;
+            float: right;
+            margin-top: 10px;
+            margin-left: 10px;
+            padding-right: 10‒;
+            padding-right: 100px;
+        }
+        .about{
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            color: red;
+            float: right;
+            margin-top: 10px;
+            margin-left: 10px;
+            padding-right: 10‒;
+            padding-right: 100px;
+            text-decoration: none;
+        }
+        a:-webkit-any-link {
+            color: red;
+            cursor: pointer;
+            text-decoration: none;
+        }
+        a:hover{
+            color: blue; 
+            text-decoration: none;
+        }
+        .balance-btn{
+            position: relative;
+            background-color: aliceblue;
+            float: left;
+            top: 350px;
+            left: 300px;
+            padding: 25px;
+            border-radius: 25px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        .transaction-btn{
+            position: relative;
+            background-color: aliceblue;
+            float: right;
+            top: 350px;
+            left: 190px;
+            padding: 25px;
+            border-radius: 25px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <h1 class="welcome">Here goes the Banking System:)</h1>
+        <h3 class="view"><a href="#">View Customers</a></h3>
+        <h3 class="about"><a href="aboutUs.html" target="__blank">About Us</a></h3>
+        <button class="balance-btn" type="button"><a href="transfermoney.php"><h3>View Balance</h3></a></button>
+        <button class="transaction-btn" type="button"><a href="#"><h3>Head to Transaction<h3></a></button>
+    </div>
+</body>
+</html>
