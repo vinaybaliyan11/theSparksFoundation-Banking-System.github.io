@@ -10,7 +10,7 @@
 
     <style type="text/css">
     body{
-       background-position: center;
+        background-position: center;
        background-size: cover;
        height: 100vh;
        margin: 0;
@@ -28,7 +28,7 @@
     }
       
     button:hover{
-        background-color:#00CED1;
+        background-color:#f4c2c2;
         color: white;
     }
     a:-webkit-any-link {
@@ -68,7 +68,7 @@
 
 <a href="index.html">Back to home</a>
 <div class="container">
-        <h2 class="text-center pt-4">....Transfer through `Money Heist`....</h2>
+        <h2 class="text-center pt-4">KUDOS TO ALL OUR VALUABLE CUSTOMERS!!!!</h2>
         <br>
             <div class="row">
                 <div class="col">
@@ -79,7 +79,7 @@
                             <th scope="col" class="text-center py-2">Id</th>
                             <th scope="col" class="text-center py-2">Name</th>
                             <!-- <th scope="col" class="text-center py-2">E-Mail</th> -->
-                            <th scope="col" class="text-center py-2">Balance</th>
+                            <!-- <th scope="col" class="text-center py-2">Balance</th> -->
                             <!-- <th scope="col" class="text-center py-2">Details</th> -->
                             </tr>
                         </thead>
@@ -91,8 +91,8 @@
                         <td class="py-2"><?php echo $rows['id'] ?></td>
                         <td class="py-2"><?php echo $rows['name']?></td>
                         <!-- <td class="py-2"><?php echo $rows['email']?></td> -->
-                        <td class="py-2"><?php echo $rows['balance']?></td>
-                        <td><a href="headtotransaction.php?id= <?php echo $rows['id'] ;?>"> <button type="button" class="btn">Show Details</button></a></td> 
+                        <!-- <td class="py-2"><?php echo $rows['balance']?></td> -->
+                        <!-- <td><a href="selecteduserdetail.php?id= <?php echo $rows['id'] ;?>"> <button type="button" class="btn">Show Details</button></a></td>  -->
                     </tr>
                 <?php
                     }
